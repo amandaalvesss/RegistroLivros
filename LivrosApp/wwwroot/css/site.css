@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  height 2000px;
+}
+
+.field-validation-error{
+    color: red;
+}
+
+.close-alert {
+    position:absolute;
+    right: -10px;
+    top: -15px;
+    border-radius: 15px;
+    width 30px;
+    height: 31px;
+}
+
+#menu {
+    position: fixed;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color:lightseagreen;
+   
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0 5px;
+    display: flex;
+    position: fixed;
+    left: 850px;
+    font-size: 20px;
+}
+
+
+
+li {
+    margin-right: 10px;
+    color: ghostwhite;
+    font-size: 20px;
+    text-decoration: none;
+    display:flex;
+}
+
+a{
+    color:ghostwhite;
+    text-decoration:none;
+}
+
+#fotos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:space-between;
+}
+
+
+.container-footer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.meuslivros {
+    font-size: 25px;
+    display: flex;
+    position: fixed;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    left: 80px;
+}
+
+
